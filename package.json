@@ -17,5 +17,15 @@
     "@types/mongoose": "^5.11.97",
     "@types/multer": "^1.4.11",
     "nodemon": "^3.1.0"
-  }
+  },
+  "name": "emartproject",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts",
+    "dev":"nodemon app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
